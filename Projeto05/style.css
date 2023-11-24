@@ -1,0 +1,112 @@
+*{
+    background: #FFF;
+    font-family: 'Source Serif 4', serif;
+}
+
+
+:root{
+    font-size: 62.5%;
+}
+
+.main{
+    padding: 53px 37px 54px 37px;
+}
+
+h1,h2{
+    color: #A54328;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+p,li {
+    color: #A54328;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    min-width: 33rem;
+}
+
+
+li{
+    font-weight: 700;
+}
+
+
+strong{
+    color: #A54328;
+    font-weight: bold;
+    font-size: 1.7rem;
+
+}
+
+
+.recipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ingredient{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+ul{
+    padding-left: 2.5rem;
+}
+
+
+ol{
+    padding-left: 2rem;
+}
+
+button{
+    display: flex;
+    width: 11.5rem;
+    padding: .8rem 1.2rem;
+    justify-content: flex-start;
+    border-radius: 5.669px;
+    background: #A54328;
+    color: #FFF;
+    border: 0;
+}
+
+
+@media (min-width: 1000px ){
+    body{
+        opacity: 0.8;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        margin: 0;
+        padding: 53px 37px 54px 37px;
+        background: url(imgs/Fundo.png), lightgray 50% / cover no-repeat;
+    }
+    .main{
+        background-color: in;
+        background: url(imgs/Fundo.png), lightgray 50% / cover no-repeat;
+        display: flex;
+        gap: 18.9rem;
+    }
+    
+    *{
+        background: 0;
+    }
+
+    .recipe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:6.6rem;
+    }
+    
+    
+
+}
