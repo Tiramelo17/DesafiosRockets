@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+
+.app{
+    display: grid;
+    
+    /*
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    */
+
+    grid-template-areas: 
+    "A B B" 
+    "A B B" 
+    "A C D";
+
+    gap: 30px;
+
+
+    height: 100vh;
+    border: 2px solid green;
+    padding: 30px;
+
+    box-sizing: border-box;
+}
+
+.app  > * {
+    border : 1px solid red;
+}
+
+
+.header{
+    /*
+    grid-row: 1/4;
+    */
+
+    grid-area: A;
+}
+
+.main {
+    /*
+    grid-row: 1/3;
+    grid-column: 2/4;
+    */
+
+    grid-area: B;
+}
+
