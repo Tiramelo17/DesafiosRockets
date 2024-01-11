@@ -23,7 +23,7 @@ export function set(){
 export function reset(){
     state.isRunning = false
     sounds.buttonPressAudio.play()
-    toggleMusic()
+    sounds.bgAudio.pause()
     document.documentElement.classList.toggle('running')
     timer.updateDisplay(30,0)
 
